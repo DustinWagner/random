@@ -1,3 +1,6 @@
+body {
+    background-color: dimgray;
+}
 #button-container {
     text-align: center;
 }

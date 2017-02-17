@@ -9,22 +9,23 @@ function createFirstScene() {
  makeCircle(100, 75, 20, "black", 1)
  makeCircle(100, 50, 20, "black", 1) 
  makeCircle(100, 20, 20, "red", 1)
-
-
-
-
-
+ makeEllipse(25, 50, 20, 50, "blue", 1)
+  makeEllipse(25, 55, 17, 50, "darkslateblue", 1)
+makeCircle(17, 10, 5, "yellow", 1)
+makeCircle(35, 10, 5, "yellow", 1)
 }
 
-
+                    
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
     makeRect(50, 0, 100, 100, "silver", 1)
- makeCircle(100, 50, 20, "yellow", 1)
   makeCircle(100, 20, 20, "black", 1)
   makeCircle(100, 75, 20, "black", 1)
+   makeCircle(100, 50, 20, "yellow", 1)
+    makeEllipse(23, 55, 30, 60, "dimgray", 1)
+   
 }
 
 
@@ -33,10 +34,10 @@ function createSecondScene() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
     makeRect(50, 0, 100, 100, "silver", 1)
-   makeCircle(100, 75, 20, "green", 1)
     makeCircle(100, 50, 20, "black", 1)
      makeCircle(100, 20, 20, "black", 1)
- 
+  makeCircle(100, 75, 20, "green", 1)
+  makeEllipse(23, 55, 30, 60, "dimgray", 1)
 }
 
 
